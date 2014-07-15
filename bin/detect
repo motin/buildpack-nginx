@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 set -e
+set -x
 
 if [[ -f $1/.nginx ]]; then
   echo "nginx"
