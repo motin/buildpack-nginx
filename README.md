@@ -8,6 +8,7 @@
 * nginx.conf.erb - Optional File: overrides `conf/nginx.conf.erb`
 * mime.types - Optional File: overrides `conf/mime.types`
 * custom-build - Optional File: executes commands before build is finished
+* custom-nginx-install - Optional File: executed where nginx otherwise would be installed via a default apt-get installation
 
 ## Environment Variables
 * root - Optional: overrides root directory
